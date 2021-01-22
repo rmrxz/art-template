@@ -20,7 +20,6 @@ module.exports = {
     after: () => {
         defaults.onerror = onerror;
     },
-
     extension: {
         'require .art': () => {
             const render = require(path.join(__dirname, 'res', 'file'));
